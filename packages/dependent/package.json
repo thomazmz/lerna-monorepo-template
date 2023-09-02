@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo/dependent",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Thomaz Zandonotto <thomaz.zandonotto@gmail.com>",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "jest --passWithNoTests --config ./jest.json",
+    "build": "rimraf ./lib/* && tsc --baseUrl ./src"
+  },
+  "dependencies": {
+    "@monorepo/dependency": "^1.0.0"
+  }
+}
