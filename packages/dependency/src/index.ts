@@ -1,3 +1,3 @@
 export function dependency() {
-  console.log('Loggin from dependency package')
+  console.log('Hello from dependency package')
 }
