@@ -1,0 +1,36 @@
+{
+  "name": "monorepo",
+  "license": "MIT",
+  "author": "Thomaz Zandonotto <thomaz.zandonotto@gmail.com>",
+  "description": "Template to create monorepos using NodeJS, TypeScript and Lerna",
+  "private": true,
+  "keywords": [
+    "typescript",
+    "javascript",
+    "monorepo",
+    "lerna"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomazmz/monorepo-template"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.8",
+    "lerna": "^7.2.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@monorepo/dependency": "^1.0.0"
+  }
+}
