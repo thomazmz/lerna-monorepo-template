@@ -29,8 +29,5 @@
     "lerna": "^7.2.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@monorepo/dependency": "^1.0.0"
   }
 }
