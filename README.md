@@ -1,5 +1,5 @@
 
-# Monorepo Template
+# Lerna Monorepo Template
 
 This repository comprises a slim monorepo template based on the following tools:
 
